@@ -6,58 +6,64 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
 
 
-    /*General Rules*/
-    body {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        color: #666363;
-        font-family: 'mukta', sans-serif;
-    }
+/*General Rules*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #666363;
+    font-family: 'mukta', sans-serif;
+}
 
 
-    /* Header */
-    header {
-        background-color: #666363;
-        padding: 0;
-        position: fixed;
-        z-index: 99;
-        width: 100%;
-        display: flex;
-        padding-top: 20px;
+/* Header */
+header {
+    background-color: #666363;
+    padding: 0;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+}
 
-    }
+#origin {
+    color: #f0f8ff;
+    list-style-type: none;
+}
 
-    #company {
-        align-items: left;
-        color: aliceblue;
-        margin-left: 20px;
-        align-content: center;
-    }
+#company {
+    color: #f0f8ff;
+    margin-left: 20px;
+    align-content: center;
+}
 
-    h1,
-    h2,
-    h3 {
-        font-family: 'jost', sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: rgb(89, 247, 4);
-    }
+h1,
+h2,
+h3 {
+    font-family: 'jost', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #61f704;
+}
+/* body */
+body{background: url("../images/car-min.jpg") no-repeat center center/cover;
+    position: relative;}
 
-    /* flesh*/
-    flesh {
-        background-color: aqua;
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-        margin-top: 50px;
-    }
+/* flesh*/
+flesh {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-top: 50px;
+}
 
-    /*footer*/
-    footer {
-        background-color: chocolate;
-        height: 50px;
-        position: bottom;
-    }
+/*footer*/
+footer {
+    background-color: chocolate;
+    height: 200px;
+    position: bottom;
+}
