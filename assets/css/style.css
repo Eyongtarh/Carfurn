@@ -1,56 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
 
+/* Asterisk wild card selector */
 
-/*General Rules*/
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    color: #666363;
-    font-family: 'mukta', sans-serif;
-}
-
-
-/* Header */
-header {
-    background-color: #666363;
+* {
     padding: 0;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    display: flex;
-    padding-top: 20px;
+    margin: 0;
+    box-sizing: border-box;
 
-}
 
-#company {
-    align-items: left;
-    color: aliceblue;
-    margin-left: 20px;
-    align-content: center;
-}
+    /*General Rules*/
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        color: #666363;
+        font-family: 'mukta', sans-serif;
+    }
 
-h1,
-h2,
-h3 {
-    font-family: 'jost', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: rgb(89, 247, 4);
-}
 
-/* flesh*/
-flesh {
-    background-color: aqua;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    margin-top: 50px;
-}
+    /* Header */
+    header {
+        background-color: #666363;
+        padding: 0;
+        position: fixed;
+        z-index: 99;
+        width: 100%;
+        display: flex;
+        padding-top: 20px;
 
-/*footer*/
-footer {
-    background-color: chocolate;
-    height: 50px;
-    position: bottom;
-}
+    }
+
+    #company {
+        align-items: left;
+        color: aliceblue;
+        margin-left: 20px;
+        align-content: center;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-family: 'jost', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: rgb(89, 247, 4);
+    }
+
+    /* flesh*/
+    flesh {
+        background-color: aqua;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        margin-top: 50px;
+    }
+
+    /*footer*/
+    footer {
+        background-color: chocolate;
+        height: 50px;
+        position: bottom;
+    }
