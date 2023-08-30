@@ -1,0 +1,40 @@
+
+
+
+
+/*General Rules*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*Generic project styles*/
+    color: #666363;
+    font-family:
+}
+
+
+/* Header */
+header {
+    background-color: #666363;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+/* flesh*/
+flesh {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-top: 50px;
+}
+
+/*footer*/
+footer{background-color: chocolate; height: 50px; position: bottom;}
